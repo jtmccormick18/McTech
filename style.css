@@ -1,3 +1,12 @@
 .invisible{
     display:none;
 }
+p{
+    text-indent: 2%;
+}
+body{
+    padding-bottom:50px;
+}
+.myStory{
+    text-shadow: 3px 3px 5px gray;
+}

@@ -10,61 +10,91 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-
-<div class="container-fluid">
-    <header class="border-bottom border-danger bg-dark rounded-bottom">
-        <div class="row">
-            <div class="col">
-                <img class="rounded img-thumb float-right mr-5" src="assets/images/joshm.jpg" height="200" width="175" alt="profilephoto">
-            </div>
-        <div class="col text-left">
-            <h1 class="display-4 text-light">Joshua McCormick</h1>
-        </div>
-</div>
-</header>
-<div class="container mt-2 border border-dark rounded">
-    <nav class="nav nav-pills flex-column flex-sm-row p-2" id="navTabs">
-        <a class="flex-sm-fill text-sm-center nav-link" id="homeTab">About</a>
-        <a class="flex-sm-fill text-sm-center nav-link" id="portTab">Portfolio</a>
-        <a class="flex-sm-fill text-sm-center nav-link" id=contactTab>Contact</a>
-    </nav>
-
-    <div class="navContent">
-
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold" href="index.html">
+            <img src="assets/images/joshm.jpg" width="30" height="35" class="d-inline-block align-top" alt="headerPhoto"> </a>
+        <span class="navbar-text">Joshua McCormick</span>
 
     </div>
-    <div class="contactForm invisible">
-        <form>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput2">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">What can I help you with?</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary mb-2">Submit</button>
-        </form>
-    </div>
-    <div class="portfolioArea invisible p-3">
-        <div class="card mx-auto" style="width:33%">
-            <img class="card-img-top border border-dark" src="assets/images/stock_app.png" alt="Stock Market App">
-            <div class="card-body">
-                <h5 class="card-title">
-                    <a href="https://jtmccormick18.github.io/stock_application/">Stock Market Application</a>
-                </h5>
-                <p class="card-text">An app that renders information about stocks of your choice.</p>
-            </div>
+</nav>
+<div class="container mt-2">
+    <div class="jumbotron jumbotron-fluid p-2 text-center">
+        <div class="container">
+            <h1 class="display-4">Full Stack Web Developer</h1>
+            <p class="lead">I use my skillset to create an outlet for people that have different skillsets than I do.
+                It's fulfilling to see someone's vision come to light and know you played a part in their journey.  </p>
         </div>
     </div>
 </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
-    crossorigin="anonymous"></script>
-<script src="app.js"></script>
 
-</div>
+<body>
+
+
+    <div class="container border border-dark rounded mb-3">
+        <nav class="nav nav-pills flex-column flex-sm-row p-2" id="navTabs">
+            <a class="flex-sm-fill text-sm-center nav-link" id="homeTab">About</a>
+            <a class="flex-sm-fill text-sm-center nav-link" id="portTab">Portfolio</a>
+            <a class="flex-sm-fill text-sm-center nav-link" id=contactTab>Contact</a>
+        </nav>
+
+        <div class="aboutMe invisible">
+            <section class="border-bottom border-dark w-75 mx-auto mb-3"> <h1 class="text-center text-danger myStory">My Story</h1>
+            </section>
+            <div class="container clearfix">
+                <img class="img-fluid float-left img-thumbnail w-25 mr-3" src="assets/images/uga2.jpg" alt="uga game">
+
+                <p class="m-2 ml-3 text-justify">   Hi there! I'm Josh. I'm currently enrolled in the full time coding bootcamp at The Georgia Institute of Technology.
+                    After high school, I spent time at Kennesaw State and eventually made my way to The University of Georgia. While I greatly enjoyed my time as a student, 
+                    I began to discover that I was in school for the entirely wrong reasons. I gave it the old college try but wound up dropping out. I fell into a job doing GIS analysis.
+                    What began as a job doing monotonous mapping projects quickly led to implementing SQL server and creating data driven platforms.</p>
+                <p class="m-2 ml-3 text-justify">
+                    The thought of learning SQL was overwhelming at first. It looked like a bunch of nonsense. However, upon some further digging I discovered
+                    that something that looked incredibly complex at first actually became quite simple to me... which leads me to my current adventure. 
+                </p>
+                <p class="m-2 ml-3 text-justify">Business aside, you can find me in Sanford Stadium on any given Saturday that the Dawgs play at home. 
+                    I have seen every episode of The Office AT LEAST 10 times. There is no amount of hot wings that I will not try to tackle. I have a wonderful girlfriend
+                    and family that are the highlight of my life. 
+
+                </p>
+
+            </div>
+        </div>
+
+        <div class="contactForm invisible">
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput2">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">What can I help you with?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </form>
+        </div>
+        <div class="portfolioArea invisible p-3">
+            <div class="card mx-auto" style="width:33%">
+                <img class="card-img-top border border-dark" src="assets/images/stock_app.png" alt="Stock Market App">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <a href="https://jtmccormick18.github.io/stock_application/">Stock Market Application</a>
+                    </h5>
+                    <p class="card-text">An app that renders information about stocks of your choice.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+<footer class="fixed-bottom text-center bg-dark mt-2 p-2">
+        <h6 class="text-center text-white">Copyright Joshua McCormick 2018</h6>
+    </footer>

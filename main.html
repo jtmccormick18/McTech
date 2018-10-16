@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<div class="container-fluid">
+    <header class="border-bottom border-danger bg-dark rounded-bottom">
+        <div class="row">
+            <div class="col">
+                <img class="rounded img-thumb float-right mr-5" src="assets/images/joshm.jpg" height="200" width="175" alt="profilephoto">
+            </div>
+        <div class="col text-left">
+            <h1 class="display-4 text-light">Joshua McCormick</h1>
+        </div>
+</div>
+</header>
+<div class="container mt-2 border border-dark rounded">
+    <nav class="nav nav-pills flex-column flex-sm-row p-2" id="navTabs">
+        <a class="flex-sm-fill text-sm-center nav-link" id="homeTab">About</a>
+        <a class="flex-sm-fill text-sm-center nav-link" id="portTab">Portfolio</a>
+        <a class="flex-sm-fill text-sm-center nav-link" id=contactTab>Contact</a>
+    </nav>
+
+    <div class="navContent">
+
+
+    </div>
+    <div class="contactForm invisible">
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput2">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">What can I help you with?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+    </div>
+    <div class="portfolioArea invisible p-3">
+        <div class="card mx-auto" style="width:33%">
+            <img class="card-img-top border border-dark" src="assets/images/stock_app.png" alt="Stock Market App">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a href="https://jtmccormick18.github.io/stock_application/">Stock Market Application</a>
+                </h5>
+                <p class="card-text">An app that renders information about stocks of your choice.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+    crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</div>

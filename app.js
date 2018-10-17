@@ -1,5 +1,12 @@
 
-
+const hideAll=function(e){
+    $('.aboutMe').addClass('invisible');
+    $('.contactForm').addClass('invisible');
+    $('.portfolioArea').addClass('invisible');
+    $('#homeTab').removeClass('text-white bg-dark');
+    $('#contactTab').removeClass('text-white bg-dark');
+    $('#portTab').removeClass('text-white bg-dark');
+}
 const getAbout=function(){
     $('.contactForm').addClass('invisible');
     $('#homeTab').addClass('text-white bg-dark');
@@ -27,7 +34,8 @@ const getPortfolio=function(){
     $('#portTab').addClass('text-white bg-dark');
 }
 
-
+$('.jumbotron').on('click', hideAll);
 $('#homeTab').on('click', getAbout);
 $('#contactTab').on('click',getContact);
 $('#portTab').on('click',getPortfolio);
+

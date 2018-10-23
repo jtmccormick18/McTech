@@ -44,86 +44,105 @@
 <body>
 
 
-    <div class="container mb-3 bg-white">
+    <div class="container mb-3 bg-white rounded">
 
         <div class="aboutMe invisible">
             <section class="border-bottom border-dark w-75 mx-auto mb-3">
                 <h1 class="text-center text-danger myStory">My Story</h1>
             </section>
             <div class="container clearfix">
-                <img class="img-fluid float-left img-thumbnail w-25 mb-3 mr-3" src="assets/images/uga2.jpg" alt="uga game">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <img class="img-responsive img-thumbnail mb-3" src="assets/images/uga2.jpg" alt="uga game">
+                    </div>
+                    <div class="container col-md-8 col-s-12">
+                        <p class="m-2 ml-3 text-justify "> Hi there! I'm Josh. I'm currently enrolled in the
+                            full time
+                            coding
+                            bootcamp at The Georgia Institute of Technology.
+                            After high school, I spent time at Kennesaw State and eventually made my way to The
+                            University
+                            of
+                            Georgia.
+                            While I greatly enjoyed my time as a student, I began to discover that I was in school for
+                            the
+                            entirely
+                            wrong reasons. I gave it the old college try but wound up dropping out. I fell into a job
+                            doing
+                            GIS
+                            analysis.
+                            What began as a job doing monotonous mapping projects quickly led to implementing SQL
+                            server
+                            and
+                            creating
+                            data driven platforms.</p>
+                        <p class="m-2 ml-3 text-justify">
+                            The thought of learning SQL was overwhelming at first. It looked like a bunch of nonsense.
+                            However,
+                            upon some further digging
+                            I discovered that something that looked incredibly complex at first actually became quite
+                            simple to
+                            me...
+                            which leads me to my current adventure.
+                        </p>
+                        <p class="m-2 ml-3 text-justify">Business aside, you can find me in Sanford Stadium
+                            on any given
+                            Saturday that the Dawgs play at home. I have
+                            seen every episode of The Office AT LEAST 10 times. There is no amount of hot wings that I
+                            will
+                            not
+                            try
+                            to tackle. I have a wonderful girlfriend and family that are the highlight of my life.
 
-                <p class="m-2 ml-3 text-justify"> Hi there! I'm Josh. I'm currently enrolled in the full time coding
-                    bootcamp at The Georgia Institute of Technology.
-                    After high school, I spent time at Kennesaw State and eventually made my way to The University of
-                    Georgia.
-                    While I greatly enjoyed my time as a student, I began to discover that I was in school for the
-                    entirely
-                    wrong reasons. I gave it the old college try but wound up dropping out. I fell into a job doing GIS
-                    analysis.
-                    What began as a job doing monotonous mapping projects quickly led to implementing SQL server and
-                    creating
-                    data driven platforms.</p>
-                <p class="m-2 ml-3 text-justify">
-                    The thought of learning SQL was overwhelming at first. It looked like a bunch of nonsense. However,
-                    upon some further digging
-                    I discovered that something that looked incredibly complex at first actually became quite simple to
-                    me...
-                    which leads me to my current adventure.
-                </p>
-                <p class="m-2 ml-3 text-justify">Business aside, you can find me in Sanford Stadium on any given
-                    Saturday that the Dawgs play at home. I have
-                    seen every episode of The Office AT LEAST 10 times. There is no amount of hot wings that I will not
-                    try
-                    to tackle. I have a wonderful girlfriend and family that are the highlight of my life.
+                        </p>
+                    </div>
 
-                </p>
-
+                </div>
             </div>
         </div>
 
         <div class="contactForm invisible">
-            <form action="mailto:josh.mccormick81@gmail.com" method="post" enctype="text/plain">
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Name</label>
-                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+            <h4 class="text-center text-danger myStory p-2 mx-auto border-bottom w-75">Check Me Out</h6>
+            <div class="row">
+                <div class="btn-group btn-group-lg mx-auto p-5 text-center" role="group" aria-label="Basic example">
+                    <a class="btn btn-dark contactbutton" href="https://www.linkedin.com/in/jmccormick18/">LinkedIn</a>
+                    <a class="btn btn-dark contactbutton" href="https://github.com/jtmccormick18">GitHub</a>
+                    <a class="btn btn-dark contactbutton" href="mailto:josh.mccormick81@gmail.com">E-Mail</a>
                 </div>
-                <div class="form-group">
-                    <label for="exampleFormControlInput2">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">What can I help you with?</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary mb-2">Submit</button>
-            </form>
+            </div>
         </div>
         <div class="portfolioArea invisible p-3">
             <div class="row">
-                <div class="col card mx-auto">
+                <div class="col-lg-3 card mx-auto">
                     <img class="card-img-top" src="assets/images/stock_app.png" alt="Stock Market App">
                     <div class="card-body">
                         <h5 class="card-title">
                             <a href="https://jtmccormick18.github.io/stock_application/">Stock Market Application</a>
+                            <br>
+                            <a class="text-dark small" href="https://github.com/jtmccormick18/stock_application">Working
+                                Code</a>
                         </h5>
                         <p class="card-text">An app that renders information about stocks of your choice.</p>
                     </div>
                 </div>
-                <div class="col card mx-auto">
+                <div class="col-lg-3 card mx-auto">
                     <img class="card-img-top" src="assets/images/cryptpro.jpg" alt="Stock Market App">
                     <div class="card-body">
                         <h5 class="card-title">
                             <a href="https://jtmccormick18.github.io/project1/">CryptPRO</a>
+                            <br>
+                            <a class="text-dark small" href="https://github.com/jtmccormick18/project1">Working Code</a>
                         </h5>
                         <p class="card-text">Buy cryptocurrency and see trends both in pricing and social outlets.</p>
                     </div>
                 </div>
-                <div class="col card mx-auto">
+                <div class="col-lg-3 card mx-auto">
                     <img class="card-img-top" src="assets/images/gmass.jpg" alt="Stock Market App">
                     <div class="card-body">
                         <h5 class="card-title">
                             <a href="https://jtmccormick18.github.io/GMASS/">GMASS</a>
+                            <br>
+                            <a class="text-dark small" href="https://github.com/jtmccormick18/GMASS">Working Code</a>
                         </h5>
                         <p class="card-text">Website for Staffing and GIS Company</p>
                     </div>

@@ -34,8 +34,12 @@ const getPortfolio=function(){
     $('#portTab').addClass('text-white bg-dark');
 }
 
+const buttonChange=function(){}
+
 $('.jumbotron').on('click', hideAll);
 $('#homeTab').on('click', getAbout);
 $('#contactTab').on('click',getContact);
 $('#portTab').on('click',getPortfolio);
+$('.contactbutton').hover(function(){
+    $(this).toggleClass('bg-danger')});
 

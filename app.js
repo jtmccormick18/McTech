@@ -42,4 +42,10 @@ $('#contactTab').on('click',getContact);
 $('#portTab').on('click',getPortfolio);
 $('.contactbutton').hover(function(){
     $(this).toggleClass('bg-danger')});
+$('.office').mouseover(function(){
+    $('.officeTheme')[0].play();
+});
+$('.office').mouseleave(function(){
+    $('.officeTheme')[0].pause();
+})
 

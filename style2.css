@@ -12,3 +12,39 @@ body{
 .titletext{
     text-shadow: 3px 3px 5px gray;
 }
+.jumboPic{
+    height:auto;
+    max-height:40vh;
+    width: auto;
+    max-width:100%;
+    display:inline-block;
+}
+/*.img-circle {
+    border-radius: 50%;
+}
+.img-circle {
+    border-radius: 0;
+}
+
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    max-height: 10vh;
+    max-width: 100%;
+}
+/*.jumbotron{
+    background-image: url('assets/images/squad.jpg') !important;
+    background-size: cover;
+}*/

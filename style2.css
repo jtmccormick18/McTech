@@ -59,6 +59,11 @@ h1 {
   .footie{
       border-top-width: 3px !important;
   }
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 5vh;
+    }
+  }
 /*.img-circle {
     border-radius: 50%;
 }

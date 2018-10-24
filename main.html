@@ -12,24 +12,22 @@
     <title>Document</title>
 </head>
 <div class="container mt-2">
-    <div class="jumbotron jumbotron-fluid p-2">
-        <div class="container clearfix">
-            <div class="row mt-2">
-                <div class="col-lg-6 col-xs-12 float-left text-center">
-                    <h1 class="display-4">Josh McCormick</h1>
-                    <span class="mx-auto text-center lead text-danger font-weight-bold">Full Stack Web Developer</span>
-                    <br>
+    <div class="jumbotron jumbotron-fluid p-2 rounded bg-dark border border-white">
+        <div class="container clearfix d-inline-block mx-auto">
+            <div class="row align-middle mt-2">
+                <div class="col-lg-8 col-xs-12 text-center d-inline-block">
+                    <h1 class="deepshadow">Joshua McCormick</h1>
                     <div class="btn-group btn-group-lg mx-auto p-1 mt-2 text-center" role="group" aria-label="Basic example">
-                            <a class="btn btn-danger contactbutton" href="https://www.linkedin.com/in/jmccormick18/">LinkedIn</a>
-                            <a class="btn btn-danger contactbutton" href="https://github.com/jtmccormick18">GitHub</a>
-                            <a class="btn btn-danger contactbutton" href="mailto:josh.mccormick81@gmail.com">E-Mail</a>
+                        <a class="btn btn-danger contactbutton" href="https://www.linkedin.com/in/jmccormick18/">LinkedIn</a>
+                        <a class="btn btn-danger contactbutton" href="https://github.com/jtmccormick18">GitHub</a>
+                        <a class="btn btn-danger contactbutton" href="mailto:josh.mccormick81@gmail.com">E-Mail</a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-x2-12 text-center d-inline-block">
-                    <img class="img-fluid rounded-circle align-middle jumboPic" src="assets/images/squad.jpg">
+                <div class="col-lg-4 col-x2-12 text-center d-inline-block mb-2">
+                    <a href="index.html"><img class="img-fluid rounded-circle align-middle jumboPic" src="assets/images/squad.jpg"></a>
                 </div>
-                
-                   
+
+
             </div>
         </div>
     </div>
@@ -46,19 +44,17 @@
 <body>
 
 
-    <div class="container mb-3 bg-white rounded">
-
-        <div class="aboutMe invisible">
-            <section class="border-bottom border-dark w-75 mx-auto mb-3">
-                <h1 class="text-center text-danger myStory">My Story</h1>
-            </section>
-            <div class="container clearfix">
+    <div class="container mb-3 bg-dark rounded">
+        <div class="aboutMe invisible text-white">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-xs-12">
-                        <img class="img-responsive img-thumbnail mb-3" src="assets/images/uga2.jpg" alt="uga game">
+                        <img class="img-responsive img-thumbnail m-3" src="assets/images/uga2.jpg" alt="uga game">
                     </div>
-                    <div class="container col-md-8 col-s-12">
-                        <p class="m-2 ml-3 text-justify "> Hi there! I'm Josh. I'm currently enrolled in the
+                    <div class="container col-md-8 col-s-12 d-inline align-middle">
+                        <h2 class="text-center myStory mt-2 border-bottom border-white p-2 w-75 mx-auto">My Story</h2>
+                        <br>
+                        <p class="m-2 ml-3 text-justify p-about"> Hi there! I'm Josh. I'm currently enrolled in the
                             full time
                             coding
                             bootcamp at The Georgia Institute of Technology.
@@ -66,10 +62,7 @@
                             University
                             of
                             Georgia.
-                            While I greatly enjoyed my time as a student, I began to discover that I was in school for
-                            the
-                            entirely
-                            wrong reasons. I gave it the old college try but wound up dropping out. I fell into a job
+                            After school, I fell into a job
                             doing
                             GIS
                             analysis.
@@ -78,7 +71,7 @@
                             and
                             creating
                             data driven platforms.</p>
-                        <p class="m-2 ml-3 text-justify">
+                        <p class="m-2 ml-3 text-justify p-about">
                             The thought of learning SQL was overwhelming at first. It looked like a bunch of nonsense.
                             However,
                             upon some further digging
@@ -87,7 +80,7 @@
                             me...
                             which leads me to my current adventure.
                         </p>
-                        <p class="m-2 ml-3 text-justify">Business aside, you can find me in Sanford Stadium
+                        <p class="m-2 ml-3 text-justify p-about">Business aside, you can find me in Sanford Stadium
                             on any given
                             Saturday that the Dawgs play at home. I have
                             seen every episode of <mark class="office bg-success text-white rounded">The Office</mark>
@@ -107,39 +100,44 @@
 
         <div class="portfolioArea invisible p-3">
             <div class="row">
-                <div class="col-lg-3 card mx-auto">
+                <div class="col text-white">
+                    <h2 class="text-center myStory border-bottom border-white p-2 mx-auto">My Projects</h2>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-lg-3 card mx-auto mb-2">
                     <img class="card-img-top" src="assets/images/stock_app.png" alt="Stock Market App">
                     <div class="card-body">
                         <h5 class="card-title">
                             <a href="https://jtmccormick18.github.io/stock_application/">Stock Market
                                 Application</a>
                             <br>
-                            <a class="text-dark small" href="https://github.com/jtmccormick18/stock_application">Working
+                            <a class="text-info small" href="https://github.com/jtmccormick18/stock_application">Working
                                 Code</a>
                         </h5>
                         <p class="card-text">An app that renders information about stocks of your choice.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 card mx-auto">
+                <div class="col-lg-3 card mx-auto mb-2">
                     <img class="card-img-top" src="assets/images/cryptpro.jpg" alt="Stock Market App">
                     <div class="card-body">
                         <h5 class="card-title">
                             <a href="https://jtmccormick18.github.io/project1/">CryptPRO</a>
                             <br>
-                            <a class="text-dark small" href="https://github.com/jtmccormick18/project1">Working
+                            <a class="text-info small" href="https://github.com/jtmccormick18/project1">Working
                                 Code</a>
                         </h5>
                         <p class="card-text">Buy cryptocurrency and see trends both in pricing and social
                             outlets.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 card mx-auto">
+                <div class="col-lg-3 card mx-auto mb-2">
                     <img class="card-img-top" src="assets/images/gmass.jpg" alt="Stock Market App">
                     <div class="card-body">
                         <h5 class="card-title">
                             <a href="https://jtmccormick18.github.io/GMASS/">GMASS</a>
                             <br>
-                            <a class="text-dark small" href="https://github.com/jtmccormick18/GMASS">Working
+                            <a class="text-info small" href="https://github.com/jtmccormick18/GMASS">Working
                                 Code</a>
                         </h5>
                         <p class="card-text">Website for Staffing and GIS Company</p>
@@ -148,16 +146,19 @@
 
             </div>
         </div>
+    </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
-            crossorigin="anonymous"></script>
-        <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
     </div>
     <audio class="officeTheme">
         <source src="assets/TheOffice.mp3">
     </audio>
 </body>
 
-<footer class="fixed-bottom text-center bg-dark mt-2 p-2">
-    <h6 class="text-center text-white">Copyright Joshua McCormick 2018</h6>
+<footer class="fixed-bottom text-center bg-dark border-top border-danger mt-2 p-2 footie">
+    <h6 class="text-center text-white">Joshua McCormick 2018 &copy;</h6>
 </footer>
+
+</html>

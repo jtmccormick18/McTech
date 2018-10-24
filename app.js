@@ -47,5 +47,7 @@ $('.office').mouseover(function(){
 });
 $('.office').mouseleave(function(){
     $('.officeTheme')[0].pause();
-})
+});
+$('.nav-link').hover(function(){
+    $(this).toggleClass('bg-primary')})
 

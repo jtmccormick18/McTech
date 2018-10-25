@@ -63,6 +63,9 @@ h1 {
     h1 {
       font-size: 5vh;
     }
+    .btn-group{
+        margin-bottom:3%;
+    }
   }
 /*.img-circle {
     border-radius: 50%;

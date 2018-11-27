@@ -1,16 +1,36 @@
 body{
-    background-image: url('assets/images/apartment-apple-business-245032.jpg');
+    background-image: url('./assets/images/kobe-2000.jpg');
     z-index:0;
     height:100%;
     width:100%;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+.indexBod{
+    overflow: hidden;
 }
 #mainPic{
     height:200px;
     width:175px;
 }
+#mainPage{
+    text-align: center;
+    margin:60vh auto;
+}
 .titletext{
-    text-shadow: 3px 3px 5px gray;
+    text-shadow: 5px 5px 7px black;
+    font-size: 10vh;
+    font-family:oxygen,sans-serif;
+    font-weight:bold;
+    color:white;
+}
+#enterButton{
+    background-color: yellow !important;
+    color:black !important;
+    font-weight:bold;
+   /* -webkit-text-stroke: 1px !important;
+   -webkit-text-stroke-color: white !important; */
 }
 .jumboPic{
     height:auto;
@@ -27,6 +47,11 @@ h1 {
     max-width: 100%;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
+}
+.slogan{
+    font-family: Permanent Marker, cursive;
+    color:yellow;
+    font-size: 7vh;
 }
 .deepshadow {
     color: #e0dfdc;
@@ -65,6 +90,13 @@ h1 {
     }
     .btn-group{
         margin-bottom:3%;
+    }
+    #mainPage{
+        margin:25vh auto;
+    }
+    .indexBod{
+        background-size: cover;
+        background-position: 25% 0%;
     }
   }
 /*.img-circle {

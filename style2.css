@@ -1,10 +1,10 @@
 body{
-    background-image: url('./assets/images/kobe_debut_iso.jpg');
+    background-image: url('./assets/images/kobe-2000.jpg');
     z-index:0;
     height:100%;
     width:100%;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
 }
 .indexBod{
@@ -19,7 +19,7 @@ body{
     margin:60vh auto;
 }
 .titletext{
-    text-shadow: 3px 3px 5px gray;
+    text-shadow: 5px 5px 7px black;
     font-size: 10vh;
     font-family:oxygen,sans-serif;
     font-weight:bold;

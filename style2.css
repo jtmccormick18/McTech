@@ -91,6 +91,13 @@ h1 {
     .btn-group{
         margin-bottom:3%;
     }
+    #mainPage{
+        margin:25vh auto;
+    }
+    .indexBod{
+        background-size: cover;
+        background-position: 25% 0%;
+    }
   }
 /*.img-circle {
     border-radius: 50%;

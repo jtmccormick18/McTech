@@ -63,22 +63,7 @@ $('.list-group-item').on('click', function (e) {
     e.preventDefault();
     $('.list-group-item').removeClass('bg-danger')
     $(this).addClass('bg-danger');
-    console.log($(this).data('val'));
-    if ($(this).data('val') === "Stocks") {
-        $('.card').addClass('invisible')
-        $('#stock').toggleClass('invisible')
-    } else if ($(this).data('val') === "CryptPro"){
-        $('.card').addClass('invisible')
-        $('#crypt').toggleClass('invisible')
-    } else if ($(this).data('val') === "StarvingArtist"){
-        $('.card').addClass('invisible')
-        $('#starve').toggleClass('invisible')
-    } else if ($(this).data('val') === "GMASS"){
-        $('.card').addClass('invisible')
-        $('#gmass').toggleClass('invisible')
-    } else if ($(this).data('val') === "kudos"){
-        $('.card').addClass('invisible')
-        $('#kudos').toggleClass('invisible')
-    }
+    $('.card').addClass('invisible')
+    $(`#${$(this).data('val')}`).toggleClass('invisible');
+});
 
-})

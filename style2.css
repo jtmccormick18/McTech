@@ -111,6 +111,13 @@ h1 {
       overflow: hidden;
       margin:0;
   }
+  .port{
+      max-width: 90%;
+  }
+  .appImage{
+      max-width:50%;
+      height:auto;
+  }
   #backgroundInfo{
     height:400px !important;
     overflow-y: scroll;

@@ -39,7 +39,7 @@
     </div>
 </div>
 <div class="container border border-dark rounded mb-3 bg-white text-dark">
-    <nav class="nav nav-pills flex-column flex-sm-row p-2" id="navTabs">
+    <nav class="nav nav-pills flex-column flex-sm-row m-2" id="navTabs">
         <a class="flex-sm-fill text-center text-sm-center nav-link" id="homeTab">About</a>
         <a class="flex-sm-fill text-center text-sm-center nav-link" id="portTab">Portfolio</a>
     </nav>
@@ -50,8 +50,8 @@
 <body data-spy="scroll" data-target="#backgroundInfo" data-offset="20">
 
 
-    <div class="container mb-3 bg-dark rounded">
-        <div class="aboutMe invisible text-white">
+    <div class="container mb-3 rounded">
+        <div class="aboutMe bg-dark rounded invisible text-white">
             <div class="row align-items-center">
                 <div class="col-lg-4 col-xs-12 m-3">
                     <img id="sanfordPic" class="img-responsive img-thumbnail align-middle" src="assets/images/uga2.jpg"
@@ -107,12 +107,12 @@
 
 
         <div class="portfolioArea invisible p-3">
-            <div class="row align-items-center">
+            <!-- <div class="row align-items-center">
                 <div class="col text-white">
                     <h2 class="text-center myStory border-bottom border-white p-2 w-75 mx-auto">My Projects</h2>
                 </div>
-            </div>
-            <div class="row mt-2">
+            </div> -->
+            <div class="row mt-2 align-items-center">
                 <div class="col-md-4 col-xs-6">
                     <ul id="projectList" class="list-group">
                         <li class="list-group-item" data-val="Stocks">Stock Market App</li>
@@ -120,104 +120,90 @@
                         <li class="list-group-item" data-val="StarvingArtist">Starving Artists</li>
                         <li class="list-group-item" data-val="kudos">Kudos App</li>
                         <li class="list-group-item" data-val="GMASS">GMASS</li>
+                        <li class="list-group-item" data-val="bestmatch">Best Match</li>
+                        <li class="list-group-item" data-val="bamazon">Bamazon</li>
                     </ul>
                 </div>
-                <div id="projectArea" class="col-md-8 col-xs-6">
-                    <div id="Stocks" class="col card mx-auto mb-2 invisible">
-                        <img class="card-img-top" src="assets/images/stock_app.png" alt="Stock Market App">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="https://jtmccormick18.github.io/stock_application/" target="_blank">Stock
+                <div id="projectArea" class="col-md-8 col-xs-6 bg-white p-3 rounded invisible">
+                    <div id="Stocks" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/stock_app.png" alt="Stock App">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://jtmccormick18.github.io/stock_application/" target="_blank">Stock
                                     Market
                                     Application</a>
-                                <br>
-                                <a class="text-info small" href="https://github.com/jtmccormick18/stock_application"
-                                    target="_blank">Working
-                                    Code</a>
                             </h5>
-                            <p class="card-text">An app that renders information about stocks of your choice.</p>
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/stock_application"
+                                    target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">An app that renders information about stocks of your choice.</p>
                         </div>
                     </div>
-                    <div id="CryptPro" class="col card mx-auto mb-2 invisible">
-                        <img class="card-img-top" src="assets/images/cryptpro.jpg" alt="Stock Market App">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="https://jtmccormick18.github.io/project1/" target="_blank">CryptPRO</a>
-                                <br>
-                                <a class="text-info small" href="https://github.com/jtmccormick18/project1" target="_blank">Working
-                                    Code</a>
+                    <div id="CryptPro" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/cryptpro.jpg" alt="CryptPro">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://jtmccormick18.github.io/project1/" target="_blank">CryptPro</a>
                             </h5>
-                            <p class="card-text">Buy cryptocurrency and see trends both in pricing and social
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/project1" target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">Buy cryptocurrency and see trends both in pricing and social
                                 outlets.</p>
                         </div>
                     </div>
-                    <div id="GMASS" class="col card mx-auto mb-2 invisible">
-                        <img class="card-img-top" src="assets/images/gmass.jpg" alt="Stock Market App">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="https://jtmccormick18.github.io/GMASS/" target="_blank">GMASS</a>
-                                <br>
-                                <a class="text-info small" href="https://github.com/jtmccormick18/GMASS" target="_blank">Working
-                                    Code</a>
+                    <div id="GMASS" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/gmass.jpg" alt="CryptPro">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://jtmccormick18.github.io/GMASS/" target="_blank">GMASS</a>
                             </h5>
-                            <p class="card-text">Website for Staffing and GIS Company</p>
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/GMASS" target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">Website for Staffing and GIS Company</p>
                         </div>
                     </div>
-
-
-                    <div class="col card mx-auto mb-2 invisible">
-                        <img class="card-img-top" src="assets/images/bestmatch.jpg" alt="Best Match Application">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="https://powerful-journey-21399.herokuapp.com/" target="_blank">Compatibility
-                                    Application</a>
-                                <br>
-                                <a class="text-info small" href="https://github.com/jtmccormick18/express_hw" target="_blank">Working
-                                    Code</a>
+                    <div id="StarvingArtist" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/starving.jpg" alt="CryptPro">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://pure-cove-88498.herokuapp.com/" target="_blank">Starving
+                                    Artists</a>
                             </h5>
-                            <p class="card-text">An app that returns a user's "Best Match" based on compatibility.</p>
-                        </div>
-                    </div>
-                    <div class="col card mx-auto mb-2 invisible">
-                        <img class="card-img-top" src="assets/images/bamazon.jpg" alt="Bamazon">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="https://gentle-island-93645.herokuapp.com/" target="_blank">Bamazon</a>
-                                <br>
-                                <a class="text-info small" href="https://github.com/jtmccormick18/bamazon" target="_blank">Working
-                                    Code</a>
-                            </h5>
-                            <p class="card-text">An app that mimics an online shopping experience, such as Amazon, and
-                                provides database-driven results when a user adds items to their cart.</p>
-                        </div>
-                    </div>
-                    <div id="StarvingArtist" class="col card mx-auto mb-2 invisible">
-                        <img class="card-img-top" src="assets/images/starving.jpg" alt="Starving Artists">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="https://pure-cove-88498.herokuapp.com/" target="_blank">Starving Artists</a>
-                                <br>
-                                <a class="text-info small" href="https://github.com/jtmccormick18/Starving_Artists"
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/Starving_Artists"
                                     target="_blank">Working
-                                    Code</a>
-                            </h5>
-                            <p class="card-text">An app that provides a safe outlet for freelance artists, such as
+                                    Code</a></p>
+                            <p class="mb-0">An app that provides a safe outlet for freelance artists, such as
                                 musicians and photographers to find
                                 local events in need of a live performance, photographer, etc..</p>
                         </div>
                     </div>
-
-                    <div id="kudos" class="col card mx-auto mb-2 invisible">
-                        <img class="card-img-top" src="assets/images/kudos.jpg" alt="Kudos">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="https://arcane-tor-87754.herokuapp.com/" target="_blank">Kudos App</a>
-                                <br>
-                                <a class="text-info small" href="https://github.com/jtmccormick18/kudos" target="_blank">Working
-                                    Code</a>
+                    <div id="kudos" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/kudos.jpg" alt="Kudos">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://arcane-tor-87754.herokuapp.com/" target="_blank">Kudos!</a>
                             </h5>
-                            <p class="card-text">An app that allows users to send compliments to other users for
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/kudos" target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">An app that allows users to send compliments to other users for
                                 whatever they wish.</p>
+                        </div>
+                    </div>
+                    <div id="bestmatch" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/bestmatch.jpg" alt="bestmatch">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://powerful-journey-21399.herokuapp.com/" target="_blank">Best
+                                    Match</a>
+                            </h5>
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/express_hw" target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">An app that returns a user's "Best Match" based on compatibility.</p>
+                        </div>
+                    </div>
+                    <div id="bamazon" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/bamazon.jpg" alt="bamazon">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://gentle-island-93645.herokuapp.com/" target="_blank">Bamazon</a>
+                            </h5>
+                            <p><a class="text-info small" href="href=" https://github.com/jtmccormick18/bamazon" target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">An app that mimics an online shopping experience, such as Amazon, and
+                                provides database-driven results when a user adds items to their cart.</p>
                         </div>
                     </div>
                 </div>
@@ -227,7 +213,7 @@
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="app.js"></script>
     </div>

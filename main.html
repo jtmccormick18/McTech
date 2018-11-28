@@ -28,16 +28,17 @@
                                 class="far fa-envelope"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-x2-12 text-center d-inline-block mb-2">
+                <div class="col-lg-4 col-xs-12 text-center d-inline-block mb-2">
                     <a href="index.html"><img class="img-fluid rounded-circle align-middle jumboPic" src="assets/images/headshot1.jpg"></a>
                 </div>
 
 
             </div>
         </div>
+
     </div>
 </div>
-<div class="container border border-dark rounded mb-3 bg-white">
+<div class="container border border-dark rounded mb-3 bg-white text-dark">
     <nav class="nav nav-pills flex-column flex-sm-row p-2" id="navTabs">
         <a class="flex-sm-fill text-center text-sm-center nav-link" id="homeTab">About</a>
         <a class="flex-sm-fill text-center text-sm-center nav-link" id="portTab">Portfolio</a>
@@ -46,45 +47,49 @@
 
 </div>
 
-<body>
+<body data-spy="scroll" data-target="#backgroundInfo" data-offset="20">
 
 
     <div class="container mb-3 bg-dark rounded">
         <div class="aboutMe invisible text-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-xs-12 m-3">
-                        <img class="img-responsive img-thumbnail" src="assets/images/uga2.jpg" alt="uga game">
-                    </div>
-                    <div class="container col-lg-7 col-s-12 d-inline align-middle">
-                        <h2 class="text-center myStory mt-2 border-bottom border-white p-2 w-75 mx-auto">My Story</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-xs-12 m-3">
+                    <img id="sanfordPic" class="img-responsive img-thumbnail align-middle" src="assets/images/uga2.jpg"
+                        alt="uga game">
+                </div>
 
-                        <p class="text-justify p-about"> Hi there! I'm Josh. I'm currently enrolled in the
-                            full time
-                            coding
-                            bootcamp at The Georgia Institute of Technology.
-                            After high school, I spent time at Kennesaw State and eventually made my way to The
-                            University
-                            of
-                            Georgia.
-                            After school, I fell into a job
-                            doing
-                            GIS
-                            analysis.
-                            What began as a job doing monotonous mapping projects quickly led to implementing SQL
-                            server
-                            and
-                            creating
-                            data driven platforms.</p>
-                        <p class="text-justify p-about">
-                            The thought of learning SQL was overwhelming at first. It looked like a bunch of nonsense.
-                            However,
-                            upon some further digging
-                            I discovered that something that looked incredibly complex at first actually became quite
-                            simple to
-                            me...
-                            which leads me to my current adventure.
+                <div class="col-lg-7 col-s-12">
+                    <div id="backgroundInfo" class="col mr-2">
+                        <h2 class="text-center myStory  border-bottom border-white p-2 w-75 mx-auto">Basics</h2>
+                        <p class="text-justify p-about"> Hi there! I'm Josh. I've recently completed the Full Stack Web
+                            Development Certification Program
+                            at The Georgia Institute of Technology. Previously, I was in the field of GIS analysis.
+                            Through that career path, I found
+                            myself frequenting SQL Server Management Studio.
+                            I realized I wasn't bad with the whole data-structure thing and decided I wanted to make
+                            the data look pretty as well... So here I am!
                         </p>
+
+                        <h2 class="text-center myStory mt-2 border-bottom border-white p-2 w-75 mx-auto">Skills</h2>
+
+                        <ul class="list-group text-danger text-center mt-2 w-75 mx-auto">
+                            <li class="list-group-item">Relation Database (5+ Years)</li>
+                            <li class="list-group-item">JavaScript</li>
+                            <li class="list-group-item">NodeJS</li>
+                            <li class="list-group-item">GIS Analysis</li>
+                            <li class="list-group-item">Excel</li>
+                            <li class="list-group-item">Project Management</li>
+                        </ul>
+                        <br>
+                        <p class="text-justify">
+                            Along with the list above, I am skilled in a variety of Web-related frameworks such as
+                            'React.js'.
+                            This portfolio was made with Bootstrap in conjunction with jQuery.
+                        </p>
+
+
+
+                        <h2 class="text-center myStory mt-2 border-bottom border-white p-2 w-75 mx-auto">Personal</h2>
                         <p class="text-justify p-about">Business aside, you can find me in Sanford Stadium
                             on any given
                             Saturday that the Dawgs play at home. I have
@@ -93,105 +98,116 @@
                             will
                             not
                             try
-                            to tackle. I have a wonderful girlfriend and family that are the highlight of my life.
-
+                            to tackle.
                         </p>
                     </div>
-
                 </div>
             </div>
         </div>
 
 
         <div class="portfolioArea invisible p-3">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col text-white">
                     <h2 class="text-center myStory border-bottom border-white p-2 w-75 mx-auto">My Projects</h2>
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-lg-3 card mx-auto mb-2">
-                    <img class="card-img-top" src="assets/images/stock_app.png" alt="Stock Market App">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="https://jtmccormick18.github.io/stock_application/" target="_blank">Stock Market
-                                Application</a>
-                            <br>
-                            <a class="text-info small" href="https://github.com/jtmccormick18/stock_application" target="_blank">Working
-                                Code</a>
-                        </h5>
-                        <p class="card-text">An app that renders information about stocks of your choice.</p>
-                    </div>
+                <div class="col-md-4 col-xs-6">
+                    <ul id="projectList" class="list-group">
+                        <li class="list-group-item" data-val="Stocks">Stock Market App</li>
+                        <li class="list-group-item" data-val="CryptPro">CryptPro</li>
+                        <li class="list-group-item" data-val="StarvingArtist">Starving Artists</li>
+                        <li class="list-group-item" data-val="kudos">Kudos App</li>
+                        <li class="list-group-item" data-val="GMASS">GMASS</li>
+                    </ul>
                 </div>
-                <div class="col-lg-3 card mx-auto mb-2">
-                    <img class="card-img-top" src="assets/images/cryptpro.jpg" alt="Stock Market App">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="https://jtmccormick18.github.io/project1/" target="_blank">CryptPRO</a>
-                            <br>
-                            <a class="text-info small" href="https://github.com/jtmccormick18/project1" target="_blank">Working
-                                Code</a>
-                        </h5>
-                        <p class="card-text">Buy cryptocurrency and see trends both in pricing and social
-                            outlets.</p>
+                <div id="projectArea" class="col-md-8 col-xs-6">
+                    <div id="stock" class="col card mx-auto mb-2 invisible">
+                        <img class="card-img-top" src="assets/images/stock_app.png" alt="Stock Market App">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="https://jtmccormick18.github.io/stock_application/" target="_blank">Stock
+                                    Market
+                                    Application</a>
+                                <br>
+                                <a class="text-info small" href="https://github.com/jtmccormick18/stock_application"
+                                    target="_blank">Working
+                                    Code</a>
+                            </h5>
+                            <p class="card-text">An app that renders information about stocks of your choice.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 card mx-auto mb-2">
-                    <img class="card-img-top" src="assets/images/gmass.jpg" alt="Stock Market App">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="https://jtmccormick18.github.io/GMASS/" target="_blank">GMASS</a>
-                            <br>
-                            <a class="text-info small" href="https://github.com/jtmccormick18/GMASS" target="_blank">Working
-                                Code</a>
-                        </h5>
-                        <p class="card-text">Website for Staffing and GIS Company</p>
+                    <div id="crypt" class="col card mx-auto mb-2 invisible">
+                        <img class="card-img-top" src="assets/images/cryptpro.jpg" alt="Stock Market App">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="https://jtmccormick18.github.io/project1/" target="_blank">CryptPRO</a>
+                                <br>
+                                <a class="text-info small" href="https://github.com/jtmccormick18/project1" target="_blank">Working
+                                    Code</a>
+                            </h5>
+                            <p class="card-text">Buy cryptocurrency and see trends both in pricing and social
+                                outlets.</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col-lg-3 card mx-auto mb-2">
-                    <img class="card-img-top" src="assets/images/bestmatch.jpg" alt="Best Match Application">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="https://powerful-journey-21399.herokuapp.com/" target="_blank">Compatibility
-                                Application</a>
-                            <br>
-                            <a class="text-info small" href="https://github.com/jtmccormick18/express_hw" target="_blank">Working
-                                Code</a>
-                        </h5>
-                        <p class="card-text">An app that returns a user's "Best Match" based on compatibility.</p>
+                    <div id="gmass" class="col card mx-auto mb-2 invisible">
+                        <img class="card-img-top" src="assets/images/gmass.jpg" alt="Stock Market App">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="https://jtmccormick18.github.io/GMASS/" target="_blank">GMASS</a>
+                                <br>
+                                <a class="text-info small" href="https://github.com/jtmccormick18/GMASS" target="_blank">Working
+                                    Code</a>
+                            </h5>
+                            <p class="card-text">Website for Staffing and GIS Company</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 card mx-auto mb-2">
-                    <img class="card-img-top" src="assets/images/bamazon.jpg" alt="Bamazon">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="https://gentle-island-93645.herokuapp.com/" target="_blank">Bamazon</a>
-                            <br>
-                            <a class="text-info small" href="https://github.com/jtmccormick18/bamazon" target="_blank">Working
-                                Code</a>
-                        </h5>
-                        <p class="card-text">An app that mimics an online shopping experience, such as Amazon, and
-                            provides database-driven results when a user adds items to their cart.</p>
+
+
+                    <div class="col card mx-auto mb-2 invisible">
+                        <img class="card-img-top" src="assets/images/bestmatch.jpg" alt="Best Match Application">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="https://powerful-journey-21399.herokuapp.com/" target="_blank">Compatibility
+                                    Application</a>
+                                <br>
+                                <a class="text-info small" href="https://github.com/jtmccormick18/express_hw" target="_blank">Working
+                                    Code</a>
+                            </h5>
+                            <p class="card-text">An app that returns a user's "Best Match" based on compatibility.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 card mx-auto mb-2">
-                    <img class="card-img-top" src="assets/images/starving.jpg" alt="Starving Artists">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="https://pure-cove-88498.herokuapp.com/" target="_blank">Starving Artists</a>
-                            <br>
-                            <a class="text-info small" href="https://github.com/jtmccormick18/Starving_Artists" target="_blank">Working
-                                Code</a>
-                        </h5>
-                        <p class="card-text">An app that provides a safe outlet for freelance artists, such as
-                            musicians and photographers to find
-                            local events in need of a live performance, photographer, etc..</p>
+                    <div class="col card mx-auto mb-2 invisible">
+                        <img class="card-img-top" src="assets/images/bamazon.jpg" alt="Bamazon">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="https://gentle-island-93645.herokuapp.com/" target="_blank">Bamazon</a>
+                                <br>
+                                <a class="text-info small" href="https://github.com/jtmccormick18/bamazon" target="_blank">Working
+                                    Code</a>
+                            </h5>
+                            <p class="card-text">An app that mimics an online shopping experience, such as Amazon, and
+                                provides database-driven results when a user adds items to their cart.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 card mx-auto mb-2">
+                    <div id="starve" class="col card mx-auto mb-2 invisible">
+                        <img class="card-img-top" src="assets/images/starving.jpg" alt="Starving Artists">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="https://pure-cove-88498.herokuapp.com/" target="_blank">Starving Artists</a>
+                                <br>
+                                <a class="text-info small" href="https://github.com/jtmccormick18/Starving_Artists"
+                                    target="_blank">Working
+                                    Code</a>
+                            </h5>
+                            <p class="card-text">An app that provides a safe outlet for freelance artists, such as
+                                musicians and photographers to find
+                                local events in need of a live performance, photographer, etc..</p>
+                        </div>
+                    </div>
+
+                    <div id="kudos" class="col card mx-auto mb-2 invisible">
                         <img class="card-img-top" src="assets/images/kudos.jpg" alt="Kudos">
                         <div class="card-body">
                             <h5 class="card-title">
@@ -205,6 +221,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

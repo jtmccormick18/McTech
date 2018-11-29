@@ -58,7 +58,7 @@ body{
     color:white;
 }
 #enterButton{
-    background-color: yellow !important;
+    background-color: red !important;
     color:black !important;
     font-weight:bold;
    /* -webkit-text-stroke: 1px !important;
@@ -85,7 +85,7 @@ h1 {
 }
 .slogan{
     font-family: Permanent Marker, cursive;
-    color:yellow;
+    color:red;
     font-size: 7vh;
 }
 .deepshadow {
@@ -147,11 +147,20 @@ h1 {
         margin-bottom:3%;
     }
     #mainPage{
-        margin:25vh auto;
+        margin:5vh auto;
+    }
+    .titletext{
+        font-size: 26px;
+    }
+    #quote{
+        display:none;
     }
     .indexBod{
         background-size: cover;
         background-position: 25% 0%;
+    }
+    #projectArea{
+        margin-top:5px !important;
     }
   }
 /*.img-circle {

@@ -9,47 +9,236 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="icon" href="./assets/images/headshot1.jpg"/>
     <title>Joshua McCormick</title>
 </head>
-
-<body class="indexBod">
-    <script>document.body.className += ' fade-out';</script>
-    <div class="container-fluid mb-5">
-        <div id="mainPage" class='text-center'>
-            <div class="titletext">Full Stack Web Developer</div>
-            <h2 class="slogan">Nothin' but .NET</h2>
-            <a class="mb-2" href="main.html"><button type="button" id="enterButton" class="btn mt-2 mb-2">Enter Here</button></a>
-        </div>
-
-        <div id="intro" class="">
-            <div class="container text-center mx-auto">
-                <div class="row">
-                    <div class="media mx-auto">
-                        <img id="indexpic" class="align-self-start mr-3 rounded-circle" height="100vh" width="auto" src="assets/images/headshot1.jpg"
-                            alt="">
-                        <div id="quote" class="media-body text-center">
-                            <blockquote class="blockquote text-center">
-                                <p class="mb-0 text-white">I'm an early bird and a night owl. So I'm wise and I have
-                                    worms.</p>
-                                <footer class="blockquote-footer text-danger">Michael Scott <cite title="Source Title">The Office</cite></footer>
-                            </blockquote>
-                        </div>
+<div class="container mt-2">
+    <div class="jumbotron jumbotron-fluid p-2 rounded bg-dark border border-white">
+        <div class="container clearfix d-inline-block mx-auto">
+            <div class="row align-middle mt-2">
+                <div class="col-lg-8 col-xs-12 text-center d-inline-block">
+                    <h1 class="deepshadow">Joshua McCormick</h1>
+                    <div class="btn-group btn-group-lg mx-auto p-1 mt-2 text-center" role="group" aria-label="Basic example">
+                        <a class="btn btn-danger contactbutton" href="https://www.linkedin.com/in/jmccormick18/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-danger contactbutton" href="https://github.com/jtmccormick18" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a class="btn btn-danger contactbutton" href="mailto:josh.mccormick81@gmail.com" target="_blank"><i
+                                class="far fa-envelope"></i></a>
                     </div>
                 </div>
+                <div class="col-lg-4 col-xs-12 text-center d-inline-block mb-2">
+                    <a href="index.html"><img class="img-fluid rounded-circle align-middle jumboPic" src="assets/images/headshot1.jpg"></a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="container border border-dark rounded mb-3 bg-white text-dark">
+    <nav class="nav nav-pills flex-column flex-sm-row m-2" id="navTabs">
+        <a class="flex-sm-fill text-center text-sm-center nav-link" id="homeTab">About</a>
+        <a class="flex-sm-fill text-center text-sm-center nav-link" id="portTab">Portfolio</a>
+    </nav>
+</div>
+
+</div>
+
+<body data-spy="scroll" data-target="#backgroundInfo" data-offset="20">
+
+
+    <div class="container mb-3 rounded">
+        <div class="aboutMe bg-dark rounded invisible text-white">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-xs-12 m-3">
+                    <img id="sanfordPic" class="img-responsive img-thumbnail align-middle" src="assets/images/uga2.jpg"
+                        alt="uga game">
+                </div>
+
+                <div class="col-lg-7 col-s-12">
+                    <div id="backgroundInfo" class="col mr-2">
+                        <h2 class="text-center myStory  border-bottom border-white p-2 w-75 mx-auto">Basics</h2>
+                        <p class="text-justify p-about"> Hi there! I'm Josh. I like to spend my days writing code and developing useful applications to help grow brands and lend a helping hand to small businesses. 
+                            I'm certified in Full Stack Web
+                            Development from Georgia Tech. Previously, I was in the field of GIS analysis and Project Management.
+                            Through that career path, I found
+                            myself frequenting SQL Server Management Studio.
+                            SQL queries are something that fascinated me early on and I found myself actually enjoying that part of the job the most. 
+                            Connecting the front and back end is something I always wondered about, and finally I took the plunge to learn how to do just that. Currently,
+                            I use these skills to create custom applications for our clients, and to create technology based solutions to problems in day to day operations of small business.
+                        </p>
+
+                        <h2 class="text-center myStory mt-2 border-bottom border-white p-2 w-75 mx-auto">Skills</h2>
+
+                        <ul class="list-group text-danger text-center mt-2 w-75 mx-auto">
+                            <li class="list-group-item">Relational Database Management (MSSQL/MySQL)</li>
+                            <li class="list-group-item">Data Analysis</li>
+                            <li class="list-group-item">JavaScript</li>
+                            <li class="list-group-item">Node.js</li>
+                            <li class="list-group-item">React.js</li>
+                            <li class="list-group-item">GIS Analysis</li>
+                            <li class="list-group-item">Excel</li>
+                            <li class="list-group-item">Project Management</li>
+                        </ul>
+                        <br>
+                    
+
+
+
+                        <h2 class="text-center myStory mt-2 border-bottom border-white p-2 w-75 mx-auto">Personal</h2>
+                        <p class="text-justify p-about">Business aside, you can find me in Sanford Stadium
+                            on any given
+                            Saturday that the Dawgs play at home. I have
+                            seen every episode of <mark class="office bg-success text-white rounded">The Office</mark>
+                            AT LEAST 10 times. There is no amount of hot wings that I
+                            will
+                            not
+                            try
+                            to tackle. I live in Roswell where I have an amazingly beautiful girlfriend, Megan, and golden-doodle puppy, Brodie.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="portfolioArea invisible p-3">
+            <!-- <div class="row align-items-center">
+                <div class="col text-white">
+                    <h2 class="text-center myStory border-bottom border-white p-2 w-75 mx-auto">My Projects</h2>
+                </div>
+            </div> -->
+            <div class="row mt-2 align-items-center">
+                <div class="col-md-4 col-xs-6">
+                    <ul id="projectList" class="list-group">
+                        <li class="list-group-item" data-val="MarketModels">Market Modelling (Real Estate/Appraisal)</li>
+                        <li class="list-group-item" data-val="GMASS">GMASS</li>
+                        <li class="list-group-item" data-val="Stocks">Stocks</li>
+                        <li class="list-group-item" data-val="CryptPro">CryptPro</li>
+                    </ul>
+                </div>
+                <div id="projectArea" class="col-md-8 col-xs-6 bg-white p-3 rounded invisible">
+                        <div id="MarketModels" class="media invisible port">
+                                <img class="align-self-center mr-3 appImage" src="assets/images/models.jpg" alt="MarketModels">
+                                <div class="media-body">
+                                    <h5 class="mt-0"><a href="gwinnettmodels.gmass.net" target="_blank">Market Modelling</a>
+                                    </h5>
+                                    <p><a class="text-info small" href="https://github.com/jtmccormick18/GwinnettMM"
+                                            target="_blank">Working
+                                            Code</a></p>
+                                    <p class="mb-0">My most sophisticated and complete application to date. Built in React, this application is designed to
+                                        assist in the reclassifying of the residential properties in Gwinnett County (one of the largest counties in metro Atlanta). Designed for the government,
+                                        this application is complete with secure routing, database protection, and token trading upon login.
+                                    </p>
+                                </div>
+                            </div>
+                    <div id="Stocks" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/stock_app.png" alt="Stock App">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://jtmccormick18.github.io/stock_application/" target="_blank">Stock
+                                    Market
+                                    Application</a>
+                            </h5>
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/stock_application"
+                                    target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">An app that renders information about stocks of your choice. Data rendered comes from an AJAX 
+                                call to a stocks trading API.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="CryptPro" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/cryptpro.jpg" alt="CryptPro">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://jtmccormick18.github.io/project1/" target="_blank">CryptPro</a>
+                            </h5>
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/project1" target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">Buy cryptocurrency and see trends both in pricing and social
+                                outlets. Connected to multiple API's making the rendered data current and relevant.</p>
+                        </div>
+                    </div>
+                    <div id="GMASS" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/gmass.jpg" alt="CryptPro">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://jtmccormick18.github.io/GMASS/" target="_blank">GMASS</a>
+                            </h5>
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/GMASS" target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">Custom company website designed for my current employer. Built using Bootstrap & jQuery... the best duo since MJ & Scottie.</p>
+                        </div>
+                    </div>
+                    <div id="StarvingArtist" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/starving.jpg" alt="CryptPro">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://pure-cove-88498.herokuapp.com/" target="_blank">Starving
+                                    Artists</a>
+                            </h5>
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/Starving_Artists"
+                                    target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">An app that provides a safe outlet for freelance artists, such as
+                                musicians and photographers to find
+                                local events in need of a live performance, photographer, etc.. Front End built with Flex Box, back-end built in MySQL.
+                                The front and back are tied together using node packages Express.js and Sequelize.js.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div id="kudos" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/kudos.jpg" alt="Kudos">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://arcane-tor-87754.herokuapp.com/" target="_blank">Kudos!</a>
+                            </h5>
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/kudos" target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">An app that allows users to send compliments to other users for
+                                whatever they wish. Front-End built with React.js and back-end language is MongoDB. Tied together with Mongoose and Express.</p>
+                        </div>
+                    </div> -->
+                    <!-- <div id="bestmatch" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/bestmatch.jpg" alt="bestmatch">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://powerful-journey-21399.herokuapp.com/" target="_blank">Best
+                                    Match</a>
+                            </h5>
+                            <p><a class="text-info small" href="https://github.com/jtmccormick18/express_hw" target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">An app that returns a user's "Best Match" based on compatibility. Built to display knowledge of JavaScript algorithms.</p>
+                        </div>
+                    </div> -->
+                    <!-- <div id="bamazon" class="media invisible port">
+                        <img class="align-self-center mr-3 appImage" src="assets/images/bamazon.jpg" alt="bamazon">
+                        <div class="media-body">
+                            <h5 class="mt-0"><a href="https://gentle-island-93645.herokuapp.com/" target="_blank">Bamazon</a>
+                            </h5>
+                            <p><a class="text-info small" href="href=" https://github.com/jtmccormick18/bamazon" target="_blank">Working
+                                    Code</a></p>
+                            <p class="mb-0">An app that mimics an online shopping experience, such as Amazon, and
+                                provides database-driven results when a user adds items to their cart. Data is tied to SQL server.</p>
+                        </div>
+                    </div> -->
+                </div>
+
             </div>
         </div>
     </div>
 
 
-
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <script src="home.js"></script>
-
+    <script src="app.js"></script>
+    </div>
+    <audio class="officeTheme">
+        <source src="assets/TheOffice.mp3">
+    </audio>
 </body>
+
+<footer class="fixed-bottom text-center bg-dark border-top border-danger mt-2 p-2 footie">
+    <h6 class="text-center text-white">Joshua McCormick 2019 &copy;</h6>
+</footer>
 
 </html>

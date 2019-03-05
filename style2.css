@@ -30,7 +30,7 @@ body{
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: red; 
+    background: skyblue; 
     border-radius: 10px;
 }
 
@@ -45,6 +45,9 @@ body{
 #mainPic{
     height:200px;
     width:175px;
+}
+.banner{
+    border-radius: 50%;
 }
 #mainPage{
     text-align: center;
@@ -69,10 +72,15 @@ body{
 }
 .jumboPic{
     height:auto;
-    max-height:40vh;
+    max-height:30vh;
     width: auto;
     max-width:100%;
     display:inline-block;
+    border-radius:50%;
+}
+.tagline{
+    color:rgba(219, 219, 219, 0.877);
+    font-family: 'Karla', sans-serif;
 }
 h1 {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
@@ -115,9 +123,18 @@ h1 {
   }
   #sanfordPic{
       vertical-align: middle !important;
+      max-height:80%;
+      height:auto;
+      width:auto;
+      max-width: 100%;
+      border-radius: 50%;
   }
   .footie{
-      border-top-width: 3px !important;
+      background-color: darkgray;
+  }
+  .portDisplay{
+      max-width: 100%;
+      height:10vh;
   }
   .aboutMe{
       height:100%;
@@ -126,6 +143,9 @@ h1 {
   }
   .port{
       max-width: 90%;
+  }
+  .portDescrip{
+      color:white
   }
   .appImage{
       max-width:50%;

@@ -97,7 +97,7 @@ h1 {
     font-size: 7vh;
 }
 .deepshadow {
-    color: #e0dfdc;
+    color: rgb(158, 158, 158);
     letter-spacing: .1em;
     text-shadow: 
       0 -1px 0 #fff, 
@@ -181,6 +181,10 @@ h1 {
     }
     #projectArea{
         margin-top:5px !important;
+    }
+    .navbar-nav,.contactbutton{
+        text-align: center;
+        margin:0 auto !important;
     }
   }
 /*.img-circle {
